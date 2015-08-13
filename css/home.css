@@ -1,0 +1,24 @@
+/* header style */
+.wrapper{
+    padding: 0 5%;
+}
+
+.logo{
+    float: left;
+ }
+.header-top{
+    padding: 10px 10px 0;
+    background-color: rgba(0,0,0,0.7);
+    color: #FFFFFF;
+}
+
+
+
+.header{
+    background: url("../images/Header-image.png") no-repeat 50% center;
+    background-size: cover;
+    height: 680px;
+}
+.navbar .navbar-toggle .icon-bar{
+    background-color: #000000;
+}
