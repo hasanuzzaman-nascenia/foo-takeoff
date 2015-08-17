@@ -6,6 +6,7 @@
 .logo{
     float: left;
  }
+
 .header-top{
     padding: 10px 10px 0;
     background-color: rgba(0,0,0,0.7);
@@ -15,10 +16,64 @@
 
 
 .header{
-    background: url("../images/Header-image.png") no-repeat 50% center;
-    background-size: cover;
-    height: 680px;
+    background: url("../images/Header-image.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-position:center center;
+    /*height: 650px;*/
+}
+.take-off{
+    background: #FFFFFF;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-position:center center;
+}
+
+.header-text{
+    margin: 30% 0 0 60%;
+    text-align: center;
+    width: 100px;
 }
 .navbar .navbar-toggle .icon-bar{
     background-color: #000000;
 }
+
+.profile{
+    background: url("../images/image2.png") no-repeat center center;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    /*padding: 5px 10%;*/
+    color: #FFFFFF;
+}
+
+.section2{
+
+}
+
+/* button design section */
+.btn-custom{
+    width: 100px;
+}
+
+.btn-sign-up{
+    color: #FFFFFF;
+    background-color: red;
+}
+.btn-learn-more{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.profile .btn-custom{
+    width: 130px;
+}
+
+/* end of button design section*/
