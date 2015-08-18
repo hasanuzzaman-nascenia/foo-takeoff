@@ -12,6 +12,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic,700,700italic'
           rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="css/home.css" rel="stylesheet"/>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -27,37 +28,62 @@
 
 <body>
 <div class="header">
-    <div class="container-fluid header-top">
-        <div class="row">
-            <div class="col-md-2">
-                <p>Welcome, Guest</p>
-            </div>
-            <div class="col-md-3 col-md-offset-7">
-                <span>Blog</span>
-                <span>Log In</span>
+        <div class="header-top">
+            <div class="row">
+                <div class="col-md-2 col-xs-5 logo-info">
+                    <p>Welcome, Guest</p>
+                </div>
+                <div class="col-md-3 col-md-offset-7 col-xs-7">
+                    <!--navbar -->
+                    <nav class="navbar">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav pull-right">
+                                <li class="active"><a href="#">Blog <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">Log in</a></li>
+                                <li>
+                                    <a class="pull-right social-icon">
+                                        <i class="fa fa-facebook"></i> &nbsp;
+                                        <i class="fa fa-twitter"></i> &nbsp;
+                                        <i class="fa fa-linkedin"></i> &nbsp;
+                                        <i class="fa fa-google"></i>
+                                    </a></li>
+
+                            </ul>
+                        </div>
+                    </nav>
 
             </div>
         </div>
     </div>
-    <div class="header-bottom header">
-        <span class="logo"> <img src="images/takeoff_logo.jpg" alt="logo"/></span>
+    <div class="header-bottom">
         <nav class="navbar">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+            <div class="col-md-4 col-sm-2">
+                <img src="images/takeoff_logo.jpg" alt="logo" class="logo"/>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav pull-right">
-                    <li class="active"><a href="#">INFLUENCERS <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">BRANDS</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#" class=" btn btn-danger btn-sm">SIGN UP</a></li>
+            <div class=" mobile-signup-button visible-xs">
+                <button class="btn-custom btn-sign-up btn-mobile-only">SIGN UP</button>
+            </div>
+            <div class="visible-xs clearfix">
+            </div>
 
-                </ul>
+            <div class="col-md-8 col-sm-10">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="#">WHAT'S IT ABOUT <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">HOW IT WORKS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <button class="btn-custom btn-sign-up"><li><a href="#" >SIGN UP</a></li></button>
+                    </ul>
+                </div>
             </div>
+
         </nav>
 
         <div class="row header-text">
@@ -118,7 +144,7 @@
 
         <div class="row">
             <div class="col-md-6 ">
-                <button class="btn-custom btn-learn-more pull-right">LEARN MORE</button>
+                <button class="btn-custom btn-learn-more">LEARN MORE</button>
             </div>
             <div class="col-md-6 center-block">
                 <button class="btn-custom btn-sign-up pull-left">SIGN UP</button>
@@ -134,30 +160,32 @@
         </p>
     </div>
 
-<div class="col-md-3 col-md-offset-2">
-    <p class="text-center">If you are an <br> <span class="">ADVICE - SEEKER</span></p>
-    <img src="images/Pilot.png" alt="" class="center-block"/>
+    <div class="col-md-3 col-md-offset-2">
+        <p class="text-center">If you are an <br> <span class="">ADVICE - SEEKER</span></p>
+        <img src="images/Pilot.png" alt="" class="center-block"/>
 
-    <div class="row">
-        <div class="col-md-6 ">
-            <button class="btn-custom btn-learn-more pull-right">LEARN MORE</button>
+        <div class="row">
+            <div class="col-md-6 ">
+                <button class="btn-custom btn-learn-more">LEARN MORE</button>
+            </div>
+            <div class="col-md-6 center-block">
+                <button class="btn-custom btn-sign-up pull-left">SIGN UP</button>
+            </div>
+
         </div>
-        <div class="col-md-6 center-block">
-            <button class="btn-custom btn-sign-up pull-left">SIGN UP</button>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p> Seek guidance and acreer assistance from
+                    a wide network of industry experts who
+                    rich with knowledge and experience.
+                    Receive quality suggestions, advice and
+                    feedback to excel and progress faster.
+
+                </p>
+            </div>
         </div>
-
     </div>
-
-    <div class="row">
-        <p> Seek guidance and acreer assistance from
-            a wide network of industry experts who
-            rich with knowledge and experience.
-            Receive quality suggestions, advice and
-            feedback to excel and progress faster.
-
-        </p>
-    </div>
-</div>
 </div>
 
 <!-- section1-->

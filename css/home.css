@@ -4,18 +4,43 @@
 }
 
 .logo{
-    float: left;
- }
+    display: inline-block;
+}
+
+.header-text{
+    padding: 18% 18% 40% 50%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 32px;
+}
 
 .header-top{
-    padding: 10px 10px 0;
-    background-color: rgba(0,0,0,0.7);
+    padding: 0;
+    background-color: rgba(0,0,0,0.2);
     color: #FFFFFF;
+}
+
+@media  (max-width: 797px){
+    .header-top{
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .logo{
+        margin: auto;
+    }
+    .social-icon{
+        display: none;
+    }
+    .header-text {
+        font-size: 22px;
+        padding: 0 0 0 0;
+    }
+
 }
 
 
 
 .header{
+    color: #FFFFFF;
     background: url("../images/Header-image.png");
     background-repeat:no-repeat;
     background-size:cover;
@@ -24,6 +49,51 @@
     -o-background-size:cover;
     background-position:center center;
     /*height: 650px;*/
+}
+.logo-info{
+    line-height: 43px;
+    margin: auto 0;
+}
+
+
+.header .navbar{
+    margin-bottom: 0;
+}
+
+.header .navbar-nav > li > a{
+    color: #FFFFFF;
+}
+
+.header .navbar-nav > li > a .icon-bar{
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.header .navbar-nav > li > a:hover{
+    text-align: center;
+    background: none;
+    /*color: grey;*/
+    text-decoration: underline;
+}
+.header .navbar-nav > li > .social-icon:hover{
+    text-align: center;
+    background: none;
+    /*color: grey;*/
+    text-decoration: none;
+}
+
+.header-bottom, .header-top{
+    padding-left: 60px;
+}
+
+.social-icon{
+    display: inline-block;
+}
+
+
+
+.header-bottom{
+    padding-top: 40px;
 }
 .take-off{
     background: #FFFFFF;
@@ -35,13 +105,14 @@
     background-position:center center;
 }
 
-.header-text{
-    margin: 30% 0 0 60%;
-    text-align: center;
-    width: 100px;
+.logo-with-plane{
+    display: block;
+    margin: auto;
 }
+
+
 .navbar .navbar-toggle .icon-bar{
-    background-color: #000000;
+    background-color: #FFFFFF;
 }
 
 .profile{
@@ -52,6 +123,11 @@
     -o-background-size:cover;
     /*padding: 5px 10%;*/
     color: #FFFFFF;
+    padding-top: 55px;
+}
+
+.profile img{
+    padding: 30px 0;
 }
 
 .section2{
@@ -60,12 +136,18 @@
 
 /* button design section */
 .btn-custom{
-    width: 100px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: medium none;
 }
 
 .btn-sign-up{
     color: #FFFFFF;
     background-color: red;
+}
+.btn-sign-up li a{
+    color: #FFFFFF;
 }
 .btn-learn-more{
     color: #000000;
@@ -74,6 +156,83 @@
 
 .profile .btn-custom{
     width: 130px;
+    margin-bottom: 20px;
+}
+
+.btn-mobile-only{
+    margin: 22px auto;
+    display: block;
+    width: 210px;
+    height: 32px;
 }
 
 /* end of button design section*/
+
+/* code for responsive design  N.B this part should be last section */
+
+@media (max-width: 360px) {
+
+
+    .header-bottom, .header-top{
+        padding-left: 5px;
+    }
+    .header-text{
+        padding: 15% 10% 20% 43%;
+        font-size: 25px;
+    }
+    .logo{
+        display: block;
+        margin: auto;
+        width: 210px;
+    }
+
+}
+
+@media (min-width: 361px) {
+    .header-bottom, .header-top{
+        padding-left: 10px;
+    }
+
+    .header-text {
+        font-size: 25px;
+        padding: 15% 10% 20% 43%;
+    }
+
+    .logo{
+        display: block;
+        margin: auto;
+        width: 210px;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .header-bottom, .header-top{
+        padding-left: 15px;
+    }
+
+    .header-text{
+        padding: 18% 18% 40% 50%;
+        font-size: 32px;
+    }
+    .logo{
+        display: inline-block;
+        margin: 0;
+    }
+
+}
+
+@media (min-width: 980px) {
+    .header-bottom, .header-top{
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-bottom, .header-top{
+        padding-left: 60px;
+    }
+}
+
+/* end of responsive */
