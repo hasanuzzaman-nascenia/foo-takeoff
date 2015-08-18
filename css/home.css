@@ -106,6 +106,10 @@
     padding: 2%;
 }
 
+.take-off .profile-info{
+    padding-top: 10%;
+}
+
 .take-off-wrapper{
     margin: auto;
     width: 65%;
@@ -197,6 +201,14 @@
         margin: auto;
     }
 
+    .take-off-wrapper {
+        margin: auto;
+        width: 95%;
+    }
+    .take-off .profile-info{
+        padding-top: 7%;
+    }
+
 }
 
 @media (min-width: 361px) {
@@ -218,6 +230,13 @@
         clear: both;
         margin: auto;
     }
+    .take-off .profile-info{
+        padding-top: 25%;
+    }
+    .take-off-wrapper {
+        margin: auto;
+        width: 95%;
+    }
 
 }
 
@@ -234,6 +253,13 @@
     .logo{
         display: inline-block;
         margin: 0;
+    }
+    .take-off .profile-info{
+        padding-top: 10%;
+    }
+    .take-off-wrapper {
+        margin: auto;
+        width: 65%;
     }
 
 }
