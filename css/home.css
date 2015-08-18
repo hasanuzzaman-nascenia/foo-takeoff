@@ -9,7 +9,6 @@
 
 .header-text{
     padding: 18% 18% 40% 50%;
-    font-family: "Courier New", Courier, monospace;
     font-size: 32px;
 }
 
@@ -48,6 +47,7 @@
     -moz-background-size:cover;
     -o-background-size:cover;
     background-position:center center;
+    font-family: 'Open Sans', sans-serif;
     /*height: 650px;*/
 }
 .logo-info{
@@ -62,6 +62,9 @@
 
 .header .navbar-nav > li > a{
     color: #FFFFFF;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 400;
+
 }
 
 .header .navbar-nav > li > a .icon-bar{
@@ -96,13 +99,15 @@
     padding-top: 40px;
 }
 .take-off{
-    background: #FFFFFF;
-    background-repeat:no-repeat;
-    background-size:cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-position:center center;
+    background: #ffffff none no-repeat scroll center center / cover ;
+    /*margin: auto;*/
+    /*width: 65%;*/
+    text-align: center;
+}
+
+.take-off-wrapper{
+    margin: auto;
+    width: 65%;
 }
 
 .logo-with-plane{
@@ -143,7 +148,7 @@
 }
 
 .btn-sign-up{
-    color: #FFFFFF;
+    color: #e23f3a;
     background-color: red;
 }
 .btn-sign-up li a{
@@ -164,6 +169,7 @@
     display: block;
     width: 210px;
     height: 32px;
+    color: #ffffff;
 }
 
 /* end of button design section*/
