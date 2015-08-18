@@ -28,36 +28,36 @@
 
 <body>
 <div class="header">
-        <div class="header-top">
-            <div class="row">
-                <div class="col-md-2 col-xs-5 logo-info">
-                    <p>Welcome, Guest</p>
-                </div>
-                <div class="col-md-3 col-md-offset-7 col-xs-7">
-                    <!--navbar -->
-                    <nav class="navbar">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav pull-right">
-                                <li class="active"><a href="#">Blog <span class="sr-only">(current)</span></a></li>
-                                <li><a href="#">Log in</a></li>
-                                <li>
-                                    <a class="pull-right social-icon">
-                                        <i class="fa fa-facebook"></i> &nbsp;
-                                        <i class="fa fa-twitter"></i> &nbsp;
-                                        <i class="fa fa-linkedin"></i> &nbsp;
-                                        <i class="fa fa-google"></i>
-                                    </a></li>
+    <div class="header-top">
+        <div class="row">
+            <div class="col-md-2 col-xs-5 logo-info">
+                <p>Welcome, Guest</p>
+            </div>
+            <div class="col-md-3 col-md-offset-7 col-xs-7">
+                <!--navbar -->
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="active"><a href="#">Blog <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">Log in</a></li>
+                            <li>
+                                <a class="pull-right social-icon">
+                                    <i class="fa fa-facebook"></i> &nbsp;
+                                    <i class="fa fa-twitter"></i> &nbsp;
+                                    <i class="fa fa-linkedin"></i> &nbsp;
+                                    <i class="fa fa-google"></i>
+                                </a></li>
 
-                            </ul>
-                        </div>
-                    </nav>
+                        </ul>
+                    </div>
+                </nav>
 
             </div>
         </div>
@@ -79,7 +79,9 @@
                         <li class="active"><a href="#">WHAT'S IT ABOUT <span class="sr-only">(current)</span></a></li>
                         <li><a href="#">HOW IT WORKS</a></li>
                         <li><a href="#">CONTACT US</a></li>
-                        <button class="btn-custom btn-sign-up"><li><a href="#" >SIGN UP</a></li></button>
+                        <button class="btn-custom btn-sign-up">
+                            <li><a href="#">SIGN UP</a></li>
+                        </button>
                     </ul>
                 </div>
             </div>
@@ -97,45 +99,76 @@
 <div class="take-off">
 
     <div class="row">
-        <img src="images/Logo-with-plane.png" alt="logo" class="logo-with-plane"/>
-        <button class="btn-custom btn-sign-up pull-right">SIGN UP</button>
+        <div class="col-md-7 col-sm-7 col-xs-7 col-xs-offset-2">
+            <img src="images/Logo-with-plane.png" alt="logo" class="logo-with-plane pull-right"/>
+        </div>
+        <div class="col-md-5 hidden-xs">
+            <button class="btn-custom btn-sign-up pull-right">SIGN UP</button>
+        </div>
     </div>
-<div class="take-off-wrapper">
-    <div class="row take-off-header">
-        <h3 class="">
-            WHAT IS TAKEOFF?
-        </h3>
-    </div>
-    <div class="row take-off-content">
-        <P class="">
-            Takeoff is a platform connecting entrepreneurs with top industry expert to
-            obtain strategic business that help grow their business. With a one stoop access
-            to top advisers across the world, and a growing network of enterpreneurs. Why go anywhere
-            else to get your queries answered?
-        </P>
-    </div>
-    <div class="row ">
-        <div class="col-md-3">
-            <img src="images/phone-call.png">
-
-            <p class="text-center">Book a phone call to speak to the Pilot.</p>
+    <div class="take-off-wrapper">
+        <div class="row take-off-header">
+            <h3 class="">
+                WHAT IS TAKEOFF?
+            </h3>
         </div>
-        <div class="col-md-3">
-            <img src="images/video-call.png">
+        <div class="row take-off-content hidden-xs">
+            <P class="">
+                Takeoff is a platform connecting entrepreneurs with top industry expert to
+                obtain strategic business that help grow their business. With a one stoop access
+                to top advisers across the world, and a growing network of enterpreneurs. Why go anywhere
+                else to get your queries answered?
+            </P>
+        </div>
+        <div class="row ">
+            <div class="col-md-3">
+                <div class="col-md-12 col-sm-6 col-xs-5">
+                    <img src="images/phone-call.png" class="img-responsive">
+                </div>
+                <div class="col-md-12 col-sm-6 col-xs-7">
+                    <p class="text-center">Book a phone call to speak to the Pilot.</p>
+                </div>
+            </div>
+            <div class="clearfix visible-xs"></div>
+            <div class="clearfix visible-sm"></div>
 
-            <p>Book a phone call to speak to the Pilot.</p>
+            <div class="col-md-3">
+                <div class="col-md-12 col-sm-6 col-xs-5">
+                    <img src="images/phone-call.png" class="img-responsive">
+                </div>
+                <div class="col-md-12 col-sm-6 col-xs-7">
+                    <p class="text-center">Book a phone call to speak to the Pilot.</p>
+                </div>
+            </div>
+            <div class="clearfix visible-xs"></div>
+            <div class="clearfix visible-sm"></div>
+
+            <div class="col-md-3">
+                <div class="col-md-12 col-sm-6 col-xs-5">
+                    <img src="images/phone-call.png" class="img-responsive">
+                </div>
+                <div class="col-md-12 col-sm-6 col-xs-7">
+                    <p class="text-center">Book a phone call to speak to the Pilot.</p>
+                </div>
+            </div>
+            <div class="clearfix visible-xs"></div>
+            <div class="clearfix visible-sm"></div>
+
+            <div class="col-md-3">
+                <div class="col-md-12 col-sm-6 col-xs-5">
+                    <img src="images/phone-call.png" class="img-responsive">
+                </div>
+                <div class="col-md-12 col-sm-6 col-xs-7">
+                    <p class="text-center">Book a phone call to speak to the Pilot.</p>
+                </div>
+            </div>
+            <div class="clearfix visible-xs"></div>
+            <div class="clearfix visible-sm"></div>
 
         </div>
-        <div class="col-md-3">
-            <img src="images/Message.png">
 
-            <p>Book a phone call to speak to the Pilot.</p>
-        </div>
-        <div class="col-md-3">
-            <img src="images/One-to-one.png">
 
-            <p>Book a phone call to speak to the Pilot.</p>
-        </div>
+
     </div>
 </div>
 </div>

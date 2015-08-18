@@ -103,6 +103,7 @@
     /*margin: auto;*/
     /*width: 65%;*/
     text-align: center;
+    padding: 2%;
 }
 
 .take-off-wrapper{
@@ -148,8 +149,8 @@
 }
 
 .btn-sign-up{
-    color: #e23f3a;
-    background-color: red;
+    color: #ffffff;
+    background-color: #e23f3a;
 }
 .btn-sign-up li a{
     color: #FFFFFF;
@@ -191,6 +192,10 @@
         margin: auto;
         width: 210px;
     }
+    .logo-with-plane{
+        clear: both;
+        margin: auto;
+    }
 
 }
 
@@ -208,6 +213,10 @@
         display: block;
         margin: auto;
         width: 210px;
+    }
+    .logo-with-plane{
+        clear: both;
+        margin: auto;
     }
 
 }
