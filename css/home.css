@@ -18,6 +18,24 @@
     color: #FFFFFF;
 }
 
+.footer-bottom{
+    background-color: #FFBB13;
+}
+.footer-bottom-content{
+    padding: 3% 25%;
+}
+
+.footer-bottom-content input,.footer-bottom-content textarea{
+    border: none;
+}
+.footer{
+    background-color: #ffffff;
+    margin-top: -4px;
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
 @media  (max-width: 797px){
     .header-top{
         background-color: rgba(0,0,0,0.8);
@@ -166,7 +184,7 @@
 /* section below profile page */
 
 .section2{
-    background: url('../images/image3.png') no-repeat scroll center center / cover ;
+    background: url('../images/Homepage-v4.jpg') no-repeat scroll center center / cover ;
     /*margin: auto;*/
     /*width: 65%;*/
     text-align: center;
@@ -220,6 +238,12 @@
 /* button design section */
 .btn-custom{
     width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: medium none;
+}
+.btn-custom-footer{
+    width: 100%;
     height: 50px;
     border-radius: 5px;
     border: medium none;
