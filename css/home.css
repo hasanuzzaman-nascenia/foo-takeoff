@@ -92,12 +92,16 @@
 .social-icon{
     display: inline-block;
 }
-
-
+.navbar .navbar-toggle .icon-bar{
+    background-color: #FFFFFF;
+}
 
 .header-bottom{
     padding-top: 40px;
 }
+
+
+/* takeoff section */
 .take-off{
     background: #ffffff none no-repeat scroll center center / cover ;
     /*margin: auto;*/
@@ -110,6 +114,10 @@
     padding-top: 10%;
 }
 
+.take-off-header{
+    color: #ffb734;
+}
+
 .take-off-wrapper{
     margin: auto;
     width: 65%;
@@ -120,11 +128,12 @@
     margin: auto;
 }
 
-
-.navbar .navbar-toggle .icon-bar{
-    background-color: #FFFFFF;
+.take-off-item{
+    padding-top: 5px;
 }
 
+
+/* profile section style */
 .profile{
     background: url("../images/image2.png") no-repeat center center;
     background-size:cover;
@@ -133,15 +142,60 @@
     -o-background-size:cover;
     /*padding: 5px 10%;*/
     color: #FFFFFF;
-    padding-top: 55px;
+    padding: 16% 0;
 }
 
 .profile img{
     padding: 30px 0;
 }
 
-.section2{
+.profile-item{
+    font-family: open sans;
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+}
 
+.profile-item-header p{
+    font-size: 20px;
+}
+
+.profile-item-header p span{
+    font-size: 30px;
+}
+
+/* section below profile page */
+
+.section2{
+    background: url('../images/image3.png') no-repeat scroll center center / cover ;
+    /*margin: auto;*/
+    /*width: 65%;*/
+    text-align: center;
+}
+
+.section-content{
+    padding: 5% 2% 55% 0;
+}
+
+/* footer section design */
+
+.footer-top{
+    padding: 2% 5%;
+}
+
+.footer-top-content{
+    width: 95%;
+    margin: auto;
+}
+
+.review-head{
+    text-align: center;
+}
+.review-label{
+    padding-left: 45px;
+}
+
+.slider-arrow{
+    padding-top: 5%;
 }
 
 /* button design section */
@@ -167,6 +221,10 @@
 .profile .btn-custom{
     width: 130px;
     margin-bottom: 20px;
+}
+
+.profile-item .btn-learn-more{
+    float: right;
 }
 
 .btn-mobile-only{
