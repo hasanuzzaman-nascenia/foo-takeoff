@@ -14,7 +14,7 @@
 
 .header-top{
     padding: 0;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.0);
     color: #FFFFFF;
 }
 
@@ -191,7 +191,26 @@
     text-align: center;
 }
 .review-label{
-    padding-left: 45px;
+    padding-left: 0;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .review-label{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 767px) {
+
+}
+
+@media (min-width: 900px) {
+    .review-label{
+        padding-left: 60px;
+        text-align: left;
+    }
 }
 
 .slider-arrow{
