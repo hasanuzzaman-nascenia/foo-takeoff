@@ -1,3 +1,10 @@
+/* hole page default style */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
 /* header style */
 .wrapper{
     padding: 0 5%;
@@ -22,19 +29,49 @@
     background-color: #FFBB13;
 }
 .footer-bottom-content{
-    padding: 3% 25%;
+    color: #ffffff;
+    padding: 3% 15%;
+}
+
+.footer-bottom-content h3{
+    font-weight: 600;
 }
 
 .footer-bottom-content input,.footer-bottom-content textarea{
     border: none;
 }
 .footer{
-    background-color: #ffffff;
     margin-top: -4px;
-    height: 100px;
     padding-top: 10px;
     text-align: center;
 }
+
+ .white-div{
+    background-color: #ffffff;
+    min-height: 20px;
+    width: 100%;
+     margin-top: -3px;
+}
+
+footer{
+    background-color: #000000;
+    min-height: 50px;
+    color: #ffffff;
+}
+footer.footer a{
+    color: #ffffff;
+}
+
+@media  (min-width: 768px){
+    footer{
+        background-color: #ffffff;
+        min-height: 50px;
+        color: #000000;
+    }
+}
+
+
+
 
 @media  (max-width: 797px){
     .header-top{
@@ -80,8 +117,7 @@
 
 .header .navbar-nav > li > a{
     color: #FFFFFF;
-    font-family: 'Open Sans' , sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 
 }
 
@@ -129,11 +165,13 @@
 }
 
 .take-off .profile-info{
-    padding-top: 10%;
+    padding-top: 25%;
+    font-weight: 600;
 }
 
 .take-off-header{
     color: #ffb734;
+    font-weight: 600;
 }
 
 .take-off-wrapper{
@@ -141,10 +179,6 @@
     width: 65%;
 }
 
-.logo-with-plane{
-    display: block;
-    margin: auto;
-}
 
 .take-off-item{
     padding-top: 5px;
@@ -199,6 +233,9 @@
 .footer-top{
     padding: 2% 5%;
 }
+.footer-top p{
+    font-size: 14px;
+}
 
 .footer-top-content{
     width: 95%;
@@ -208,28 +245,53 @@
 .review-head{
     text-align: center;
 }
+
+.review-head h4{
+    ffont-size: 20px;
+    padding: 10px 0;
+}
+
+.review-head h6{
+    font-size: 15px;
+    line-height: 0.2;
+}
+
+.footer-top-content p{
+    font-size: 13px;
+}
+
 .review-label{
-    padding-left: 0;
+    font-family: open sans;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 23px;
+
     text-align: center;
 }
 
-@media (max-width: 767px) {
+.start-block{
+    padding-bottom: 20px;
+}
+.footer-image{
+    width: 100%;
+}
+
+
+
+
+@media (min-width: 980px) {
     .review-label{
-        padding-left: 0;
-        text-align: center;
+        padding-right: 10%;
+    }
+}
+@media (min-width: 1100px) {
+    .review-label{
+        padding-right: 25%;
     }
 }
 
-@media (min-width: 767px) {
 
-}
 
-@media (min-width: 900px) {
-    .review-label{
-        padding-left: 60px;
-        text-align: left;
-    }
-}
 
 .slider-arrow{
     padding-top: 5%;
@@ -241,6 +303,7 @@
     height: 50px;
     border-radius: 5px;
     border: medium none;
+    font-weight: 600;
 }
 .btn-custom-footer{
     width: 100%;
@@ -298,16 +361,12 @@
         width: 210px;
     }
     .logo-with-plane{
-        clear: both;
-        margin: auto;
+        padding-right: 12%;
     }
 
     .take-off-wrapper {
         margin: auto;
         width: 95%;
-    }
-    .take-off .profile-info{
-        padding-top: 7%;
     }
 
 }
@@ -328,12 +387,9 @@
         width: 210px;
     }
     .logo-with-plane{
-        clear: both;
-        margin: auto;
+        padding-right: 10%;
     }
-    .take-off .profile-info{
-        padding-top: 25%;
-    }
+
     .take-off-wrapper {
         margin: auto;
         width: 95%;
@@ -355,9 +411,7 @@
         display: inline-block;
         margin: 0;
     }
-    .take-off .profile-info{
-        padding-top: 10%;
-    }
+
     .take-off-wrapper {
         margin: auto;
         width: 65%;
@@ -368,6 +422,10 @@
 @media (min-width: 980px) {
     .header-bottom, .header-top{
         padding-left: 40px;
+    }
+
+    .take-off .profile-info{
+        padding-top: 15%;
     }
 }
 
