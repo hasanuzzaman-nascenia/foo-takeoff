@@ -11,7 +11,8 @@
 }
 
 .logo{
-    display: inline-block;
+    margin: auto;
+    display: block;
 }
 
 .header-text{
@@ -78,9 +79,7 @@ footer.footer a{
         background-color: rgba(0,0,0,0.8);
     }
 
-    .logo{
-        margin: auto;
-    }
+
     .social-icon{
         display: none;
     }
@@ -355,11 +354,7 @@ footer.footer a{
         padding: 15% 10% 20% 43%;
         font-size: 25px;
     }
-    .logo{
-        display: block;
-        margin: auto;
-        width: 210px;
-    }
+
     .logo-with-plane{
         padding-right: 12%;
     }
@@ -381,11 +376,6 @@ footer.footer a{
         padding: 15% 10% 20% 43%;
     }
 
-    .logo{
-        display: block;
-        margin: auto;
-        width: 210px;
-    }
     .logo-with-plane{
         padding-right: 10%;
     }
@@ -407,9 +397,10 @@ footer.footer a{
         padding: 18% 18% 40% 50%;
         font-size: 32px;
     }
+    /* logo position for pc */
     .logo{
+        margin-left: -15px;
         display: inline-block;
-        margin: 0;
     }
 
     .take-off-wrapper {
