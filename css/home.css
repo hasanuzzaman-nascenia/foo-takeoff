@@ -34,10 +34,10 @@
     padding: 3% 25%;
 }
 
-.footer-bottom-content h3{
-    font-weight: 600;
-    padding: 7px 0;
+.footer-bottom-content h3 {
     font-size: 30px;
+    font-weight: 600;
+    padding: 12px 0 28px;
 }
 
 .footer-bottom-content input,.footer-bottom-content textarea{
@@ -197,7 +197,10 @@ footer.footer a{
 .take-off-item{
     padding-top: 5px;
 }
-
+.take-off-content p {
+    line-height: 157%;
+    padding: 0 10%;
+}
 
 /* profile section style */
 .profile{
