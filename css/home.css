@@ -168,6 +168,10 @@ footer.footer a{
     padding-top: 40px;
 }
 
+.header-bottom .navbar-collapse{
+    padding-right: 7px;
+}
+
 
 /* takeoff section */
 .take-off{
@@ -175,7 +179,7 @@ footer.footer a{
     /*margin: auto;*/
     /*width: 65%;*/
     text-align: center;
-    padding: 2% 0 4%;
+    padding: 2% 2% 4%;
 }
 
 .take-off .profile-info{
