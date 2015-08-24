@@ -373,6 +373,21 @@ footer.footer a{
 
 /* end of button design section*/
 
+/* Log In popup design section */
+.modal-header{
+    border: none;
+}
+.modal-header .close{
+    margin-top: -15px;
+}
+
+.modal-title{
+    color: #ffb734;
+    font-size: 22px;
+}
+
+/* end of popup design */
+
 /* code for responsive design  N.B this part should be last section */
 
 @media (max-width: 360px) {
