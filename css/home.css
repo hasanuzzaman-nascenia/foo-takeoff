@@ -7,7 +7,8 @@
 
 /* header style */
 .wrapper{
-    padding: 0 5%;
+   max-width: 1060px;
+    margin: auto;
 }
 
 .logo{
@@ -360,19 +361,16 @@ footer.footer a{
 
 /* button design section */
 .btn-custom{
-    width: 150px;
-    height: 50px;
+    width: 111px;
+    height: 35px;
     border-radius: 5px;
     border: medium none;
     font-weight: 600;
 }
 
 .profile .btn-custom{
-    width: 146px;
-    height: 48px;
-    border-radius: 5px;
-    border: medium none;
-    font-weight: 600;
+    width: 162px;
+    height: 46px;
 }
 .btn-custom-footer{
     width: 100%;
@@ -397,11 +395,6 @@ footer.footer a{
 .btn-learn-more{
     color: #000000;
     background-color: #FFFFFF;
-}
-
-.profile .btn-custom{
-    width: 130px;
-    margin-bottom: 20px;
 }
 
 .profile-item .btn-learn-more{
