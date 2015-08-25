@@ -260,8 +260,7 @@ footer.footer a{
 
 .profile-item{
     font-family: open sans;
-    /*font-size: 20px;*/
-    /*text-align: center;*/
+    padding-bottom: 20%;
 }
 .profile-item-header{
     padding-bottom: 50px;
@@ -363,14 +362,16 @@ footer.footer a{
 .btn-custom{
     width: 111px;
     height: 35px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: medium none;
-    font-weight: 600;
+    font-weight: normal;
+    font-size: 13px;
 }
 
 .profile .btn-custom{
-    width: 162px;
-    height: 46px;
+    width: 100px;
+    height: 30px;
+    font-weight: normal;
 }
 .btn-custom-footer{
     width: 100%;
@@ -495,12 +496,19 @@ footer.footer a{
 
     .take-off-wrapper {
         margin: auto;
-        width: 65%;
+        width: 85%;
+    }
+    .profile .btn-custom {
+        height: 35px;
+        width: 130px;
+    }
+    .profile-item{
+        padding-bottom: 10%;
     }
 
 }
 
-@media (min-width: 980px) {
+@media (min-width: 992px) {
     .header-bottom, .header-top{
         padding-left: 40px;
     }
@@ -508,6 +516,11 @@ footer.footer a{
     .take-off .profile-info{
         padding-top: 15%;
     }
+    .profile .btn-custom {
+        height: 46px;
+        width: 162px;
+    }
+
 }
 
 @media (min-width: 1200px) {
